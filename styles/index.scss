@@ -1,0 +1,303 @@
+/**
+ * Main style file for project.
+ * Uses SASS, specifically the SCSS syntax
+ * http://sass-lang.com/
+ */
+
+
+// Include strib-icons
+$strib-fonts-location: '//static.startribune.com/assets/libs/strib-icons/0.0.10/';
+@import '@striblab/strib-icons/build/strib-icons.scss';
+
+
+// Environment noting
+
+// Strib styles
+// https://github.com/striblab/strib-styles/blob/master/source/styles/_variables.scss
+
+// Assumed that this project lives within an existing page, so we add a
+// wrapper that is very specific and wrap our other styles in it so
+// that we don't affect other styles on the page.  Note that
+// this increases the CSS size, and it means strib-styles won't use
+// rems when it would otherwise.
+$selector-wrapper: '.strib-styles.ssa.ssb.ssc';
+@import '@striblab/strib-styles/source/styles/default-wrapper.scss';
+
+// Project specific styles.  Split styles into files per component
+#{$selector-wrapper} {
+  // Split your styles into multiple files so its easier to understand and change
+  @import 'shared/_project';
+}
+
+.content-scroll {
+  max-width: 100% !important;
+  margin: auto;
+}
+
+.environment-note {
+  display:none;
+}
+
+.map:hover {
+  cursor:grab !important;
+}
+
+.pullout {
+  margin-left:auto;
+  margin-right:auto;
+  width:520px;
+  text-align:center;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.canBlock {
+  display:inline-block;
+  width:48%;
+  height:250px;
+  margin-bottom:25px;
+  text-align:center;
+  margin-top:45px;
+}
+
+.geocoder {
+  display:none !important;
+}
+
+.canLabel {
+  text-align:center;
+  font-weight:bold;
+  font-size:0.9em;
+  border-radius: 5px;
+  padding: 0 7px;
+  margin-bottom: 3px;
+  font-family: "Benton Sans", Helvetica, Arial, sans-serif !important;
+}
+
+.legend {
+  font-size:0.6em;
+  margin-bottom:15px;
+}
+
+#mainlegend {
+  margin-top:25px;
+  margin-bottom:15px;
+  font-size:0.8em;
+  font-weight:bold;
+}
+
+.legend div {
+  height:10px;
+  width:40px;
+  display:inline-block;
+}
+
+.null {
+  background-color:#f7f7f7;
+}
+
+.label {
+  font-weight:bold;
+  font-size:0.8em;
+  }
+
+  .city-label {
+		font-size: 1.25em;
+		fill: white;
+		font-family: "Benton Sans";
+		text-shadow: 1px 0 5px black;
+    pointer-events:none;
+  }
+
+
+.line {
+   font-size:0.8em;
+} 
+
+.line div {
+  display:inline-block;
+  clear:both;
+  width:40px;
+}
+
+.num {
+  text-align:right;
+}
+
+.tipname {
+  font-size:0.8em;
+}
+
+.tooltip {
+  font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+  background-color: #ffffff !important;
+  height: auto !important;
+  width: auto !important;
+  padding: 10px !important;
+  opacity:1 !important;
+  border-radius: 0 !important;
+  border: 1px solid #000000 !important;
+  font-size: 13px !important;
+}
+
+.tinymap {
+  pointer-events:none !important;
+}
+
+
+.legendary {
+  padding:4px;
+  color: #fff;
+  font-family: "Benton Sans", Helvetica, Arial, sans-serif !important;
+  font-weight:bold;
+  border-radius: 5px;
+  padding: 0 7px;
+  margin-bottom: 3px;
+  display:inline-block;
+}
+
+ 
+   /*BLUE-GREY SHADED RAMP*/
+   .grayblue1 {
+    fill: #DAE1E7;
+    background-color: #DAE1E7;
+  }
+  
+  .grayblue2 {
+    fill: #C6D1D9;
+    background-color: #C6D1D9;
+  }
+  
+  .grayblue3 {
+    fill: #A8B9C5;
+    background-color: #A8B9C5;
+  }
+  
+  .grayblue4 {
+    fill: #7F98AA;
+    background-color: #7F98AA;
+  }
+  
+  .grayblue5 {
+    fill: #556E7F;
+    background-color: #556E7F;
+  }
+  
+  .grayblue6 {
+    fill: #2C3942;
+    background-color: #2C3942;
+  }
+  
+
+  #map {
+    width:1200px;
+    height:700px;
+    margin-right:auto;
+    margin-left:auto;
+    display:inline-block;
+    text-align:center;
+    vertical-align:top;
+    position:relative;
+   }
+
+
+#map2 {
+  width:800px;
+  height:600px;
+  margin-right:auto;
+  margin-left:auto;
+  display:inline-block;
+  text-align:center;
+  vertical-align:top;
+  position:relative;
+  pointer-events:none !important;
+ }
+
+ #map3 {
+  width:800px;
+  height:600px;
+  margin-right:auto;
+  margin-left:auto;
+  display:inline-block;
+  text-align:center;
+  vertical-align:top;
+  position:relative;
+  pointer-events:none !important;
+ }
+
+
+
+ .mapboxgl-canvas {
+   position:static !important;
+ }
+
+ .mapboxgl-ctrl-logo, .mapboxgl-ctrl-attrib, .mapboxgl-ctrl-geocoder--icon, .mapboxgl-ctrl-compass {
+   display:none !important;
+ }
+
+.geocoder, .mapboxgl-ctrl-geocoder {
+  width:800px;
+  min-width: 800px;
+  margin-right:auto;
+  margin-left:auto;
+  }
+
+  .mapboxgl-ctrl-geocoder {
+    width: 33.3333%;
+    font-size: 15px;
+    line-height: 20px;
+    width:100% !important;
+    max-width: 100%  !important;
+}
+
+.reset:hover {
+  cursor:pointer;
+}
+
+.adjacent {
+  border-radius:5px;
+  border:1px solid #333333;
+  display:inline-block;
+  width:49.5%;
+  text-align:center;
+  margin-bottom:5px;
+}
+
+.adjacent:hover {
+  cursor:pointer;
+  opacity:0.8;
+}
+
+.adjacent iframe {
+  width:100%;
+  height:400 !important;
+}
+
+.maphead {
+  width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 38px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+
+.blue {
+  background-image: linear-gradient(to right, white , #0258A0);
+}
+
+.purple {
+  background-image: linear-gradient(to right, white , #874e8e);
+}
+
+.red {
+  background-image: linear-gradient(to right, white , #C0272D);
+}
+
+@media (max-width:800px) {
+  .pullout {
+      width:100% !important;
+  }
+}

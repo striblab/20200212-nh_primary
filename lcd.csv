@@ -1,0 +1,531 @@
+label,content
+content," <div class=""strib-styles ssa ssb ssc"">
+  <section class=""container-lg elex-header"">
+    <h5 class=""font-popular-light""><span class=""font-popular-medium"">Election 2020</span></h5>
+      <h1>A detailed look at how Klobuchar's surge affected the New Hampshire primary</h1>
+    <div class=""byline"">
+      <address>By
+        <a rel=""author"" href=""http://www.startribune.com/jeff-hargarten/274254381/"">Jeff Hargarten</a>
+      </address>
+      <address> and
+          <a rel=""author"" href=""http://www.startribune.com/torey-van-oot/503387641/"">Torey Van Oot</a>
+        </address>
+      <span class=""spacer""></span>
+      Star Tribune
+      <span class=""spacer-alt""></span>
+      <time pubdate datetime=""2019-11-11T16:00:00"">February 12, 2020</time>
+    </div>
+    <p></p>
+    <!-- share -->
+  </section>
+  
+
+  <section class=""container-lg"">
+    <p>After a middling performance in the chaotic <a href=""http://www.startribune.com/a-precinct-by-precinct-look-at-klobuchar-s-iowa-caucus-performance/567235201/"">Iowa caucuses</a>, Minnesota Sen. Amy Klobuchar headed into New Hampshire's primary with some <a href=""http://www.startribune.com/sen-amy-klobuchar-shows-signs-of-new-hampshire-breakout/567734232/"">polling momentum</a> amid growing uncertainty among the Democratic presidential nomination field.</p>
+
+    <p>Klobuchar, who along with South Bend, Ind. Mayor Pete Buttigieg, seemed to directly impact former Vice President Joe Biden's performance in Iowa. And now an insurgent Klobuchar seems to have bit into the support of both Biden, Buttigieg and other centrist rivals, not only to her own benefit, but to the boon of Sen. Bernie Sanders, who claimed an overwhelming victory over a divided field in New Hampshire.</p>
+
+    <p>While most other states vote by precinct, New Hamphire votes by town, and breaking the results down to that level reveals where Klobuchar performed best, often to the detriment of Biden and Buttigieg.</p>
+  </section>
+
+  <div class=""slide"" id=""mainslide"">
+
+      <div id=""mainlegend"">Vote percentage</div>
+      <div class=""legend""><div class=""white"">0%</div><div class=""null""></div><div class=""blue1""></div><div class=""blue2""></div><div class=""blue3""></div><div class=""blue4""></div><div class=""blue5""></div><div class=""white"">100%</div></div>
+
+      <div class=""map"" id=""map""></div>
+
+      <div class=""slide"">
+          <div class=""contest-table"">
+            <table>
+              <thead>
+                <tr><th></th>
+                <th class=""cand"">Candidate</th>
+                <th class=""pct"">DEL</th>
+                <th class=""pct"">VOTES</th>
+                <th class=""pct"">PCT</th>
+                <th class=""bar""></th></tr></thead>
+      
+                <tbody>
+    
+                      
+                    <tr class=""party-dem3 winner"" title=""party"">
+                        <td class=""winner"" title="""">
+                          <span class=""check"">✓</span>
+                        </td>
+                      <td class=""cand"">
+                        <span class=""first"">Bernie </span>Sanders
+                        <span class=""party-label""></span>
+                      </td>
+                      <td class=""delegates""><span>12</span></td>
+                      <td class=""delegates""><span>562</span></td>
+                      <td class=""pct""><span class=""num"">26.1%</span></td>
+                      <td class=""bar"" title=""party"">
+                        <span class=""pctBar"" style=""width: 26.1%;""></span>
+                      </td>
+                  </tr>
+
+
+                    <tr class=""party-dem2"" title=""party"">
+                      <td title=""party"">
+                          <span class=""candidate-color-label"" title=""party""></span>
+                        </td>
+                            <td class=""cand"">
+                              <span class=""first"">Pete </span>Buttigieg
+                              <span class=""party-label""></span>
+                            </td>
+                            <td class=""delegates""><span>13</span></td>
+                            <td class=""delegates""><span>564</span></td>
+                            <td class=""pct""><span class=""num"">26.2</span></td>
+                            <td class=""bar"" title=""party"">
+                              <span class=""pctBar"" style=""width: 26.2%;""></span>
+                            </td>
+                      </tr>
+    
+                      <tr class=""party-dem5"" title=""party"">
+                          <td title=""party"">
+                            <span class=""candidate-color-label"" title=""party""></span>
+                          </td>
+                          <td class=""cand"">
+                              <span class=""first"">Amy </span>Klobuchar
+                              <span class=""party-label""></span>
+                            </td>
+                            <td class=""delegates""><span>1</span></td>
+                            <td class=""delegates""><span>264</span></td>
+                            <td class=""pct""><span class=""num"">12.3</span></td>
+                            <td class=""bar"" title=""party"">
+                              <span class=""pctBar"" style=""width: 12.3%;""></span>
+                            </td>
+                      </tr>
+
+    
+              <tr class=""party-dem1"" title=""party"">
+                  <td title=""party"">
+                    <span class=""candidate-color-label"" title=""party""></span>
+                  </td>
+                  <td class=""cand"">
+                    <span class=""first"">Elizabeth </span>Warren
+                    <span class=""party-label""></span>
+                  </td>
+                  <td class=""delegates""><span>8</span></td>
+                  <td class=""delegates""><span>387</span></td>
+                  <td class=""pct""><span class=""num"">18.0</span></td>
+                  <td class=""bar"" title=""party"">
+                    <span class=""pctBar"" style=""width: 18%;""></span>
+                  </td>
+              </tr>
+    
+    
+              <tr class=""party-dem4"" title=""party"">
+                <td title=""party"">
+                  <span class=""candidate-color-label"" title=""party""></span>
+                </td>
+                <td class=""cand"">
+                  <span class=""first"">Joe </span>Biden
+                  <span class=""party-label""></span>
+                </td>
+                <td class=""delegates""><span>6</span></td>
+                <td class=""delegates""><span>341</span></td>
+                <td class=""pct""><span class=""num"">15.8</span></td>
+                <td class=""bar"" title=""party"">
+                  <span class=""pctBar"" style=""width: 15.8%;""></span>
+                </td>
+            </tr>
+    
+
+    
+            <tr class=""party-dem6"" title=""party"">
+                <td title=""party"">
+                  <span class=""candidate-color-label"" title=""party""></span>
+                </td>
+                <td class=""cand"">
+                  <span class=""first"">Andrew </span>Yang
+                  <span class=""party-label""></span>
+                </td>
+                <td class=""delegates""><span>0</span></td>
+                <td class=""delegates""><span>22</span></td>
+                <td class=""pct""><span class=""num"">1.0</span></td>
+                <td class=""bar"" title=""party"">
+                  <span class=""pctBar"" style=""width: 1%;""></span>
+                </td>
+              </tr>
+    
+              <tr class=""party-null"" title=""party"">
+                  <td title=""party"">
+                    <span class=""candidate-color-label"" title=""party""></span>
+                  </td>
+                  <td class=""cand"">
+                    <span class=""first"">Write-ins </span>
+                    <span class=""party-label""></span>
+                  </td>
+                  <td class=""delegates""><span>0</span></td>
+                  <td class=""delegates""><span>4</span></td>
+                  <td class=""pct""><span class=""num"">0.2</span></td>
+                  <td class=""bar"" title=""party"">
+                    <span class=""pctBar"" style=""width: 0.2%;""></span>
+                  </td>
+                </tr>
+
+              <tr class=""party-null"" title=""party"">
+                <td title=""party"">
+                  <span class=""candidate-color-label"" title=""party""></span>
+                </td>
+                <td class=""cand"">
+                  <span class=""first"">Tom </span>Steyer
+                  <span class=""party-label""></span>
+                </td>
+                <td class=""delegates""><span>7</span></td>
+                <td class=""delegates""><span>5</span></td>
+                <td class=""pct""><span class=""num"">0.3</span></td>
+                <td class=""bar"" title=""party"">
+                  <span class=""pctBar"" style=""width: 0.3%;""></span>
+                </td>
+            </tr>
+    
+                
+    <tr class=""party-null"" title=""party"">
+        <td title=""party"">
+          <span class=""candidate-color-label"" title=""party""></span>
+        </td>
+        <td class=""cand"">
+          <span class=""first"">Tulsi </span>Gabbard
+          <span class=""party-label""></span>
+        </td>
+        <td class=""delegates""><span>0</span></td>
+        <td class=""delegates""><span>0</span></td>
+        <td class=""pct""><span class=""num"">0</span></td>
+        <td class=""bar"" title=""party"">
+          <span class=""pctBar"" style=""width: 0%;""></span>
+        </td>
+      </tr>
+    
+          <tr class=""party-null"" title=""party"">
+              <td title=""party"">
+                <span class=""candidate-color-label"" title=""party""></span>
+              </td>
+              <td class=""cand"">
+                <span class=""first"">Other </span>
+                <span class=""party-label""></span>
+              </td>
+              <td class=""delegates""><span>0</span></td>
+              <td class=""delegates""><span>1</span></td>
+              <td class=""pct""><span class=""num"">0</span></td>
+              <td class=""bar"" title=""party"">
+                <span class=""pctBar"" style=""width: 0%;""></span>
+              </td>
+            </tr>
+    
+  
+                </tbody>
+            </table>
+      </div>
+        </div>
+  </div>
+
+  <div class=""pullout"">
+      <div id=""mainlegend"">Jump to city | <span class=""reset"">Reset view</span></div>
+      <div class=""adjacent"" index=""0"">Manchester</div> <div class=""adjacent"" index=""1"">Nashua</div>
+      <div class=""adjacent"" index=""2"">Concord</div> <div class=""adjacent"" index=""3"">Derry</div>
+      <div class=""adjacent"" index=""4"">Dover</div> <div class=""adjacent"" index=""5"">Rochester</div>
+      <div class=""adjacent"" index=""6"">Salem</div> <div class=""adjacent"" index=""7"">Londonderry</div>
+  </div>
+
+  <div class=""rule""></div>
+  <section class=""container-lg"">
+      <h2 class=""chartTitle"">A split centrist vote helped progressives</h2>
+      <p>Sanders' win in New Hampshire, while not as overwhelming as his 2016 primary victory, was partially made possible by a fractured bloc of center-left voters who split their support between Buttigieg, Biden and Klobuchar.</p>
+        
+      <p>Slicing the race into progressive and centrist blocs of the top-finishing candidates shows New Hampshire voters overall preferred Klobuchar, Buttigieg and Biden over progressive firebrands like Sanders or Massachusetts Sen. Elizabeth Warren by a significant margin.</p>
+    </section>
+    
+      <div class=""slide"" id=""mainslide"">
+          <div class=""map"" id=""map2""></div>
+      </div>
+
+  
+  <div class=""slide"">
+      <div class=""contest-table"">
+          <h4>Centrist candidates</h4>
+        <table>
+          <thead>
+            <tr><th></th>
+            <th class=""cand"">Candidate</th>
+            <th class=""pct"">DEL</th>
+            <th class=""pct"">VOTES</th>
+            <th class=""pct"">PCT</th>
+            <th class=""bar""></th></tr></thead>
+  
+            <tbody>
+                <tr class=""party-centrist winner"" title=""party"">
+                    <td title=""party"">
+                      <span class=""candidate-color-label"" title=""party""></span>
+                    </td>
+                    <td class=""cand"">
+                      <span class=""first"">COMBINED </span>TOTAL
+                      <span class=""party-label""></span>
+                    </td>
+                    <td class=""delegates""><span>0</span></td>
+                    <td class=""delegates""><span>0</span></td>
+                    <td class=""pct""><span class=""num"">0%</span></td>
+                    <td class=""bar"" title=""party"">
+                      <span class=""pctBar"" style=""width: 0%;""></span>
+                    </td>
+                </tr>
+
+                <tr class=""party-centrist"" title=""party"">
+                  <td title=""party"">
+                      <span class=""candidate-color-label"" title=""party""></span>
+                    </td>
+                        <td class=""cand"">
+                          <span class=""first"">Pete </span>Buttigieg
+                          <span class=""party-label""></span>
+                        </td>
+                        <td class=""delegates""><span>13</span></td>
+                        <td class=""delegates""><span>564</span></td>
+                        <td class=""pct""><span class=""num"">26.2</span></td>
+                        <td class=""bar"" title=""party"">
+                          <span class=""pctBar"" style=""width: 26.2%;""></span>
+                        </td>
+                  </tr>
+
+                <tr class=""party-centrist"" title=""party"">
+                  <td title=""party"">
+                    <span class=""candidate-color-label"" title=""party""></span>
+                  </td>
+                  <td class=""cand"">
+                    <span class=""first"">Joe </span>Biden
+                    <span class=""party-label""></span>
+                  </td>
+                  <td class=""delegates""><span>6</span></td>
+                  <td class=""delegates""><span>341</span></td>
+                  <td class=""pct""><span class=""num"">15.8</span></td>
+                  <td class=""bar"" title=""party"">
+                    <span class=""pctBar"" style=""width: 15.8%;""></span>
+                  </td>
+              </tr>
+
+                <tr class=""party-centrist"" title=""party"">
+                    <td title=""party"">
+                      <span class=""candidate-color-label"" title=""party""></span>
+                    </td>
+                    <td class=""cand"">
+                        <span class=""first"">Amy </span>Klobuchar
+                        <span class=""party-label""></span>
+                      </td>
+                      <td class=""delegates""><span>1</span></td>
+                      <td class=""delegates""><span>264</span></td>
+                      <td class=""pct""><span class=""num"">12.3</span></td>
+                      <td class=""bar"" title=""party"">
+                        <span class=""pctBar"" style=""width: 12.3%;""></span>
+                     </td>
+                </tr>
+            </tbody>
+        </table>
+  </div>
+</div>
+
+<div class=""slide"">
+          
+    <div class=""contest-table"">
+        <h4>Progressive candidates</h4>
+      <table>
+        <thead>
+          <tr><th></th>
+          <th class=""cand"">Candidate</th>
+          <th class=""pct"">DEL</th>
+          <th class=""pct"">VOTES</th>
+          <th class=""pct"">PCT</th>
+          <th class=""bar""></th></tr></thead>
+
+          <tbody>
+              <tr class=""party-progressive winner"" title=""party"">
+                  <td title=""party"">
+                    <span class=""candidate-color-label"" title=""party""></span>
+                  </td>
+                  <td class=""cand"">
+                    <span class=""first"">COMBINED </span>TOTAL
+                    <span class=""party-label""></span>
+                  </td>
+                  <td class=""delegates""><span>0</span></td>
+                  <td class=""delegates""><span>0</span></td>
+                  <td class=""pct""><span class=""num"">0%</span></td>
+                  <td class=""bar"" title=""party"">
+                    <span class=""pctBar"" style=""width: 0%;""></span>
+                  </td>
+              </tr>
+
+            <tr class=""party-progressive"" title=""party"">
+              <td title=""party"">
+                  <span class=""candidate-color-label"" title=""party""></span>
+                </td>
+              <td class=""cand"">
+                <span class=""first"">Bernie </span>Sanders
+                <span class=""party-label""></span>
+              </td>
+              <td class=""delegates""><span>12</span></td>
+              <td class=""delegates""><span>562</span></td>
+              <td class=""pct""><span class=""num"">26.1</span></td>
+              <td class=""bar"" title=""party"">
+                <span class=""pctBar"" style=""width: 26.1%;""></span>
+              </td>
+          </tr>
+
+
+        <tr class=""party-progressive"" title=""party"">
+            <td title=""party"">
+              <span class=""candidate-color-label"" title=""party""></span>
+            </td>
+            <td class=""cand"">
+              <span class=""first"">Elizabeth </span>Warren
+              <span class=""party-label""></span>
+            </td>
+            <td class=""delegates""><span>8</span></td>
+            <td class=""delegates""><span>387</span></td>
+            <td class=""pct""><span class=""num"">18.0</span></td>
+            <td class=""bar"" title=""party"">
+              <span class=""pctBar"" style=""width: 18%;""></span>
+            </td>
+        </tr>
+          </tbody>
+      </table>
+</div>
+</div>
+
+      <div class=""rule""></div>
+
+      <section class=""container-lg"">
+          <h2 class=""chartTitle"">Klobuchar's small-town appeal</h2>
+          <p>New Hampshire – a predominantly white, rural swing state dotted with small towns – is the sort of place Klobuchar has argued she could reach due to her <a href=""http://www.startribune.com/how-amy-klobuchar-fared-in-trump-country/498035261/"">strong support</a> at home in Greater Minnesota.</p>
+          
+          <p>Results from this primary seemingly lends some credance to that argument, as her small-town performance was strong across the board, not just in tiny Dixville Notch, but Concord, Nashua and Derry.</p>
+      </section>
+
+      <div class=""slide"" id=""mainslide3"">
+          <div class=""map"" id=""map3""></div>
+      </div>
+
+      <section class=""container-lg"">
+          <p>Klobuchar also had some of her strongest Iowa support in areas surrounding college towns, and this trend continued in New Hampshire. While Sanders dominated the campuses themselves, the ring of surrounding towns often leaned in Klobuchar's direction.</p>
+      </section>
+
+
+    <div class=""rule""></div>
+    <h2 class=""chartTitle"">The road through Super Tuesday</h2>
+    <section class=""container-lg"">
+      <p>In the next couple weeks, Nevada will hold its caucuses, followed by South Carolina's primaries, the final two contests before Super Tuesday on March 3, where Minnesota and about a third of delegates are up for grabs.</p>
+
+      <p>Klobuchar's polling has mostly been in the field's lower tier, according to <a href=""https://www.realclearpolitics.com/epolls/2020/president/nv/nevada_democratic_presidential_caucus-6866.html"" targete=""new_"">Real Clear Politics averages</a>. Though these states are polled more heavily in coming weeks, Klobuchar may see further bumps in support.</p>
+
+    </section>
+
+    <div class=""slide"">
+        <div class=""contest-table"">
+          <h4>Klobuchar's polling averages</h4>
+          <table>
+            <thead>
+              <tr><th></th>
+              <th class=""cand"">STATE</th>
+              <th class=""pct"">DATE</th>
+              <th class=""pct"">RANK</th>
+              <th class=""pct"">PCT</th>
+              <th class=""bar""></th></tr></thead>
+    
+              <tbody>
+                    <tr class=""party-dem5"" title=""party"">
+                        <td title=""party"">
+                          <span class=""candidate-color-label"" title=""party""></span>
+                        </td>
+                        <td class=""cand"">
+                            <span class=""first"">Nevada </span>
+                            <span class=""party-label""></span>
+                          </td>
+                          <td class=""date""><span>2/22/20</span></td>
+                          <td class=""delegates""><span>7th</span></td>
+                          <td class=""pct""><span class=""num"">3.0%</span></td>
+                          <td class=""bar"" title=""party"">
+                            <span class=""pctBar"" style=""width: 0.3%;""></span>
+                          </td>
+                    </tr>
+
+                    <tr class=""party-dem5"" title=""party"">
+                        <td title=""party"">
+                          <span class=""candidate-color-label"" title=""party""></span>
+                        </td>
+                        <td class=""cand"">
+                            <span class=""first"">South Carolina </span>
+                            <span class=""party-label""></span>
+                          </td>
+                          <td class=""date""><span>2/29/20</span></td>
+                          <td class=""delegates""><span>8th</span></td>
+                          <td class=""pct""><span class=""num"">2.0</span></td>
+                          <td class=""bar"" title=""party"">
+                            <span class=""pctBar"" style=""width: 2%;""></span>
+                          </td>
+                    </tr>
+
+                    <tr class=""party-dem5"" title=""party"">
+                        <td title=""party"">
+                          <span class=""candidate-color-label"" title=""party""></span>
+                        </td>
+                        <td class=""cand"">
+                            <span class=""first"">California </span>
+                            <span class=""party-label""></span>
+                          </td>
+                          <td class=""date""><span>3/3/20</span></td>
+                          <td class=""delegates""><span>7th</span></td>
+                          <td class=""pct""><span class=""num"">3.5</span></td>
+                          <td class=""bar"" title=""party"">
+                            <span class=""pctBar"" style=""width: 3.5%;""></span>
+                          </td>
+                    </tr>
+
+                    <tr class=""party-dem5"" title=""party"">
+                        <td title=""party"">
+                          <span class=""candidate-color-label"" title=""party""></span>
+                        </td>
+                        <td class=""cand"">
+                            <span class=""first"">Texas </span>
+                            <span class=""party-label""></span>
+                          </td>
+                          <td class=""date""><span>3/3/20</span></td>
+                          <td class=""delegates""><span>6th</span></td>
+                          <td class=""pct""><span class=""num"">3.5</span></td>
+                          <td class=""bar"" title=""party"">
+                            <span class=""pctBar"" style=""width: 3.5%;""></span>
+                          </td>
+                    </tr>
+              </tbody>
+          </table>
+    </div>
+      </div>
+    
+<div class=""slide""><p><span class=""byline"">Data source: New Hampshire Secretary of State, New Hampshire Democratic Party, Associated Press, Real Clear Politics</span></p>
+</div>
+
+<section class=""container-lg"">
+
+    <div class=""article-author-contact"">
+      <div class=""article-author-hcard"">
+          <p></p><p><span style=""font-size: 10pt; font-family: Arial;""><strong>Jeff Hargarten </strong>is a data journalist for the Star Tribune focusing on data-driven reporting and visualization. He has covered elections, technology, criminal justice, demographics and public health.</span></p><p></p>
+          <p><a class=""article-author-hcard__email"" target=""_blank"" href=""mailto:Jeff.Hargarten@startribune.com?subject=A detailed look at how Klobuchar's surge affected the New Hampshire primary"" data-linkname=""Jeff.Hargarten@startribune.com"" data-linktype=""email"" data-modulename=""Article"" data-moduletype=""zone1-content"" data-position=""0-1-author"">Jeff.Hargarten@startribune.com</a>
+          <a class=""article-author-hcard__phone"" href=""tel:612-673-4642"" data-linkname=""612-673-4642"" data-linktype=""phone"" data-modulename=""Article"" data-moduletype=""zone1-content"" data-position=""0-1-author"">612-673-4642</a>
+          <a class=""article-author-hcard__twitter"" href=""http://twitter.com/JeffHargarten"" target=""_blank"" data-linkname=""JeffHargarten"" data-linktype=""twitter"" data-modulename=""Article"" data-moduletype=""zone1-content"" data-position=""0-1-author"">JeffHargarten</a></p>
+    </div>
+
+  <div class=""article-author-hcard"">
+      <p></p><p><span style=""font-size: 10pt; font-family: Arial;""><strong>Torey Van Oot  </strong>reports on Minnesota politics and government for the Star Tribune.</span></p><p></p>
+      <p><a class=""article-author-hcard__email"" target=""_blank"" href=""mailto:torey.vanoot@startribune.com?subject=How Amy Klobuchar's campaign is doing, by the numbers"" data-linkname=""Jeff.Hargarten@startribune.com"" data-linktype=""email"" data-modulename=""Article"" data-moduletype=""zone1-content"" data-position=""0-1-author"">torey.vanoot@startribune.com</a>
+      <a class=""article-author-hcard__phone"" href=""tel:612-673-7299"" data-linkname=""612-673-7299"" data-linktype=""phone"" data-modulename=""Article"" data-moduletype=""zone1-content"" data-position=""0-1-author"">612-673-7299</a>
+      <a class=""article-author-hcard__twitter"" href=""http://twitter.com/toreyvanoot"" target=""_blank"" data-linkname=""JeffHargarten"" data-linktype=""twitter"" data-modulename=""Article"" data-moduletype=""zone1-content"" data-position=""0-1-author"">toreyvanoot</a></p>
+  </div>
+  </div>
+
+</section>
+</div>"
+scripts,news/projects/all/20200212-nh_primary/js/index.bundle.js
+styles,news/projects/all/20200212-nh_primary/styles/index.bundle.css
+script libraries,"<script src=""https://cdn.polyfill.io/v2/polyfill.min.js""></script>
+<script src=""https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js""></script>
+<script src=""https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js""></script>
+<script src=""https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js""></script>"
+style libraries,
